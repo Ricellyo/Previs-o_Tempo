@@ -5,14 +5,22 @@
 }
 
 body {
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
-    background-size: cover;
+    /* background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover; */
+   background: #8fafc2 ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+
 }   
 
-section {
-    background-color: rgb(226, 204, 204);
-    width: 30%;
-    
+.container {
+    background-color: #000000;
+    color: white;
+    opacity: 0.8;
+    width: 95%;
+    max-width: 450px;
 }
-
- 
+    

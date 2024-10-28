@@ -14,7 +14,8 @@ let chave = "8bfeb89b42e07862ad31b245161b34a1";
 
 function colocarNaTela(dados){
     console.log(dados);
-    document.querySelector(".cidade").innerHTML = dados.name
+    document.querySelector(".cidade").innerHTML = "Tempo em " + dados.name
+    document.querySelector(".graus").innerHTML = Math.floor(dados.main.temp_max)+ "°C";
 }
 
 async function localizarCidade(localidade) {
@@ -39,7 +40,6 @@ function clicarNoBotao() {
 }
 
 
-
-
+// 30 minutow
 
 

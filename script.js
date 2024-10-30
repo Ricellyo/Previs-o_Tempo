@@ -14,8 +14,13 @@ let chave = "8bfeb89b42e07862ad31b245161b34a1";
 
 function colocarNaTela(dados){
     console.log(dados);
+    
     document.querySelector(".cidade").innerHTML = "Tempo em " + dados.name
+
     document.querySelector(".graus").innerHTML = Math.floor(dados.main.temp_max)+ "°C";
+
+    document.querySelector(".icone").src = "https://openweathermap.org/img/wn/"+ dados.
+    weather[0].icon +".png"
 }
 
 async function localizarCidade(localidade) {
@@ -42,4 +47,5 @@ function clicarNoBotao() {
 
 // 30 minutow
 
+// "img/internet_15114062.png
 
